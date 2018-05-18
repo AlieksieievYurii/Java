@@ -1,0 +1,9 @@
+The directory from which it must be done was really important.I got that wrong earlier.TY....Noted. I was under the false impression that only javas inbuilt packages must be in small. – user2756339 Oct 17 '13 at 17:47
+Is there a way to run it from the same directory? For example specifying a working directory via a command line option? I am searching a lot for this and everyone says "just go one dir up", but it's really annoying in some scenarios. – Haralan Dobrev May 16 '14 at 23:55
+Oh, here it is: java -cp ../ one.Test. I was sure I've tried it before. – Haralan Dobrev May 16 '14 at 23:56
+1
+Yes - In the man file for the Java application launcher java, it states: "By default, the first argument without an option is the name of the class to be called. A fully qualified class name should be used." I think they should change this to 'A fully qualified class name must be used'! – jdurston Oct 25 '15 at 19:29 The directory from which it must be done was really important.I got that wrong earlier.TY....Noted. I was under the false impression that only javas inbuilt packages must be in small. – user2756339 Oct 17 '13 at 17:47
+Is there a way to run it from the same directory? For example specifying a working directory via a command line option? I am searching a lot for this and everyone says "just go one dir up", but it's really annoying in some scenarios. – Haralan Dobrev May 16 '14 at 23:55
+Oh, here it is: java -cp ../ one.Test. I was sure I've tried it before. – Haralan Dobrev May 16 '14 at 23:56
+1
+Yes - In the man file for the Java application launcher java, it states: "By default, the first argument without an option is the name of the class to be called. A fully qualified class name should be used." I think they should change this to 'A fully qualified class name must be used'! – jdurston Oct 25 '15 at 19:29 
