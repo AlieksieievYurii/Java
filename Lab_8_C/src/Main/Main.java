@@ -48,12 +48,12 @@ public class Main extends JFrame implements Runnable
 
     private double convertFahrenheitToCelsius(double Fahrenheit)
     {
-        return Fahrenheit/33.8;
+        return 0.5*(Fahrenheit-32);
     }
 
     private double convertCelsiusToFahrenheit(double Celsius)
     {
-        return Celsius*33.8;
+        return 32 + 0.5*Celsius;
     }
 
     private void engine(DocumentEvent e, boolean focusOnCelsius)

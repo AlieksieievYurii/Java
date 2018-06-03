@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
+   <children>
+      <Circle fx:id="tlOneGreen" fill="DODGERBLUE" layoutX="408.0" layoutY="379.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlOneYellow" fill="DODGERBLUE" layoutX="408.0" layoutY="352.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlOneRed" fill="DODGERBLUE" layoutX="408.0" layoutY="324.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlTwoRed" fill="DODGERBLUE" layoutX="193.0" layoutY="77.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlTwoYellow" fill="DODGERBLUE" layoutX="193.0" layoutY="50.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlTwoGreen" fill="DODGERBLUE" layoutX="193.0" layoutY="22.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlFourRed" fill="DODGERBLUE" layoutX="475.0" layoutY="110.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlFourYellow" fill="DODGERBLUE" layoutX="503.0" layoutY="110.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlFourGreen" fill="DODGERBLUE" layoutX="531.0" layoutY="110.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlThreeGreen" fill="DODGERBLUE" layoutX="72.0" layoutY="280.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlThreeYellow" fill="DODGERBLUE" layoutX="100.0" layoutY="280.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="tlThreeRed" fill="DODGERBLUE" layoutX="128.0" layoutY="280.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlOneAGreen" fill="DODGERBLUE" layoutX="140.0" layoutY="99.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlOneARed" fill="DODGERBLUE" layoutX="140.0" layoutY="117.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlTwoAGreen" fill="DODGERBLUE" layoutX="407.0" layoutY="99.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlTwoARed" fill="DODGERBLUE" layoutX="407.0" layoutY="116.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlOneBRed" fill="DODGERBLUE" layoutX="187.0" layoutY="272.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlOneBGreen" fill="DODGERBLUE" layoutX="188.0" layoutY="290.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlTwoBRed" fill="DODGERBLUE" layoutX="468.0" layoutY="272.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlTwoBGreen" fill="DODGERBLUE" layoutX="468.0" layoutY="289.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlThreeARed" fill="DODGERBLUE" layoutX="184.0" layoutY="107.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlThreeAGreen" fill="DODGERBLUE" layoutX="202.0" layoutY="107.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlThreeBGreen" fill="DODGERBLUE" layoutX="405.0" layoutY="56.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlThreeBRed" fill="DODGERBLUE" layoutX="423.0" layoutY="56.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlFourARed" fill="DODGERBLUE" layoutX="180.0" layoutY="330.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlFourAGreen" fill="DODGERBLUE" layoutX="198.0" layoutY="330.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlFourBGreen" fill="DODGERBLUE" layoutX="402.0" layoutY="279.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="ptlFourBRed" fill="DODGERBLUE" layoutX="420.0" layoutY="279.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
